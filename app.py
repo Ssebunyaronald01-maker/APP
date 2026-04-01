@@ -2,10 +2,10 @@ from flask import Flask, render_template, request, jsonify
 import requests
 from datetime import datetime, timedelta
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+#oad_dotenv()
 
 app = Flask(__name__)
 
